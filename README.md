@@ -93,5 +93,14 @@ The code coordinates robot movement, sensor detection, conveyor control, and vis
 n = NiryoRosWrapper()
 n.calibrate_auto()
 ```
+This connects to the Niryo Ned2 robot and performs **automatic calibration**, ensuring that all joints and reference frames are properly initialized before the robot begins executing tasks.
 
+Calibration is necessary to guarantee accurate robot positioning during pick-and-place operations.
+
+---
+
+### Conveyor Control
+
+```python
+n.control_conveyor(ConveyorID.ID_1, True, 100, ConveyorDirection.BACKWARD)
 
