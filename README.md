@@ -10,7 +10,7 @@ This project simulates an automated production-line environment where objects mo
 
 ## System Setup
 
-![System Setup](images/system setup.jpg)
+![System Setup](images/system_setup.jpg)
 
 *Niryo Ned2 robotic sorting system with conveyor, IR sensor, and colored cubes.*
 
