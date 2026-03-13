@@ -17,7 +17,7 @@ This project simulates an automated production-line environment where objects mo
 ---
 
 ## System Build Video
-[Watch the build process](video/system_build_and_demo.mp4)
+[Watch the build process](images/system_build_and_demo.mp4)
 
 ## System Overview
 
