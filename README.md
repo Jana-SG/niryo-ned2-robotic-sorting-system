@@ -10,7 +10,7 @@ This project simulates an automated production-line environment where objects mo
 
 ## System Setup
 
-![System Setup](images/system_setup.jpg)
+![System Setup](images/system setup.jpg)
 
 *Niryo Ned2 robotic sorting system with conveyor, IR sensor, and colored cubes.*
 
@@ -76,8 +76,6 @@ The project integrates several software tools for robot control, perception, and
 - **Blockly (Niryo Studio)**
 
 Blockly was used to visually design the robot control logic. The Blockly program was then exported as Python code using the Niryo ROS wrapper.
-
----
 
 ---
 
