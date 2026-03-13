@@ -17,9 +17,8 @@ This project simulates an automated production-line environment where objects mo
 ---
 
 ## System Build Video
-```markdown
 [Watch the build process](video/system_build_and_demo.mp4)
-```
+
 ## System Overview
 
 The robotic system performs automated **pick-and-place sorting** using the following workflow:
@@ -104,7 +103,7 @@ Calibration is necessary to guarantee accurate robot positioning during pick-and
 ```python
 n.control_conveyor(ConveyorID.ID_1, True, 100, ConveyorDirection.BACKWARD)
 ```
-# Conveyor Activation
+**Conveyor Activation**
 This command activates the **conveyor belt**, moving objects toward the robot workspace.
 
 Parameters specify:
@@ -125,9 +124,9 @@ while n.digital_read('DIS'):
 The robot continuously reads the digital input sensor (DI5) connected to the system.
 When an object arrives at the detection point:
 
--The IR sensor changes state
--The robot stops the conveyor
--The robot begins the sorting process
+- The IR sensor changes state
+- The robot stops the conveyor
+- The robot begins the sorting process
 
 This allows the robot to synchronize its actions with the arrival of objects on the conveyor.
 
